@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",function(){var e,n,t,o,d=0;0==d&&(d=1,e=document.getElementById("progressbar"),n=document.getElementById("info"),t=10,o=setInterval(function(){100<=t?(clearInterval(o),d=0,n.innerHTML="Desconto aplicado com sucesso!"):(t++,e.style.width=t+"%",e.innerHTML=t+"%")},30))});
